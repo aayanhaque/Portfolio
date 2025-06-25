@@ -23,15 +23,6 @@ const Projects: React.FC = () => {
       demoLink: "https://aayanhaque.github.io/Digital_Clock/"
     },
     {
-      id: 2,
-      title: "Weather App",
-      description: "Real-time weather application that shows current conditions and forecasts for any location.",
-      imageUrl: process.env.PUBLIC_URL + "/assets/weather1.png",
-      technologies: ["JavaScript", "HTML", "CSS", "Weather API"],
-      githubLink: "https://github.com/aayanhaque/weatherApp",
-      demoLink: "https://aayanhaque.github.io/weatherApp/"
-    },
-    {
       id: 3,
       title: "Text to Speech",
       description: "A web application that converts text to speech with adjustable voice selection and speech speed control.",
@@ -48,6 +39,15 @@ const Projects: React.FC = () => {
       technologies: ["JavaScript", "HTML", "CSS"],
       githubLink: "https://github.com/aayanhaque/BMI_Calculator",
       demoLink: "https://aayanhaque.github.io/BMI_Calculator/"
+    },
+    {
+      id: 5,
+      title: "Choose-Leader",
+      description: "A web application that converts speech to images, allowing users to generate images based on spoken input.",
+      imageUrl: process.env.PUBLIC_URL + "/assets/chart-growth.svg",
+      technologies: ["JavaScript", "HTML", "CSS", "Web Speech API"],
+      githubLink: "#",
+      demoLink: "http://chooseleader.netlify.app"
     }
   ];
 

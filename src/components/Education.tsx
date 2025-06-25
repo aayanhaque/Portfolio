@@ -28,7 +28,7 @@ const Education: React.FC = () => {
       duration: '2018 – 2020',
       location: 'Lakhisarai, Bihar',
       performance: 'Cumulative Percentage: 73.2%',
-      logo: process.env.PUBLIC_URL + '/assets/nalanda.jpeg',
+      logo: process.env.PUBLIC_URL + '/assets/intermediate.jpeg',
       website: 'https://nalandacollege.ac.in/'
     },
     {
@@ -37,7 +37,7 @@ const Education: React.FC = () => {
       duration: '2018',
       location: 'Lakhisarai, Bihar',
       performance: 'Cumulative Percentage: 69.2%',
-      logo: process.env.PUBLIC_URL + '/assets/rps.jpg'
+      logo: process.env.PUBLIC_URL + '/assets/matriculation.avif'
     }
   ];
 
