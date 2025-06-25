@@ -43,9 +43,9 @@ const Projects: React.FC = () => {
     {
       id: 5,
       title: "Choose-Leader",
-      description: "A web application that converts speech to images, allowing users to generate images based on spoken input.",
+      description: "Voting App is a simple and interactive web application that allows users to vote for their preferred leader or option and instantly see the results.",
       imageUrl: process.env.PUBLIC_URL + "/assets/chart-growth.svg",
-      technologies: ["JavaScript", "HTML", "CSS", "Web Speech API"],
+      technologies: ["JavaScript", "HTML", "CSS", "React"],
       githubLink: "#",
       demoLink: "http://chooseleader.netlify.app"
     }
