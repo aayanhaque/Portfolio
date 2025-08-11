@@ -15,11 +15,7 @@ const Hero: React.FC = () => {
             About <span className="text-secondary">Me</span>
           </h1>
           <p className="my-4 text-gray-400 max-w-lg">
-            Hello! I'm MD AAYAN HAQUE, a final year Computer Science Engineering student at Haldia Institute of Technology. 
-            I'm passionate about web development and creating responsive, user-friendly applications.
-          </p>
-          <p className="mb-6 text-gray-400 max-w-lg">
-            I enjoy solving problems and building projects that demonstrate both my technical skills and creativity.
+            I have completed my Bachelor of Technology in Computer Science and am passionate about building scalable web applications and AI-powered solutions. I seek to apply my technical skills in software development, machine learning, and problem-solving to drive innovation and enhance user-centric systems. I am eager to contribute to dynamic teams and work on real-world projects that combine creativity with modern technology.
           </p>
           <div className="flex flex-wrap gap-4">
             <motion.a
@@ -33,7 +29,7 @@ const Hero: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/10MNY8wArVYdfmAZNpgWUa-GXk6_0MjZD/view?usp=drive_link"
+              href="/ResumeImage.html"
               target="_blank"
               rel="noopener noreferrer"
               className="btn border border-gray-600 text-white hover:border-secondary hover:text-secondary"

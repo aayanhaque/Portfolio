@@ -29,7 +29,7 @@ const Education: React.FC = () => {
       location: 'Lakhisarai, Bihar',
       performance: 'Cumulative Percentage: 73.2%',
       logo: process.env.PUBLIC_URL + '/assets/intermediate.jpeg',
-      website: 'https://nalandacollege.ac.in/'
+      // website: 'https://nalandacollege.ac.in/'
     },
     {
       degree: 'Matriculation',
